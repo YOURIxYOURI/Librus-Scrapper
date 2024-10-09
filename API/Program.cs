@@ -1,3 +1,6 @@
+using API;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+var connstring = builder.Configuration.GetConnectionString("MySqlConnection");
+builder.Services.AddDbContext<AppDbContext>(x => x.UseMySql(connstring, ServerVersion.AutoDetect(connstring)));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
