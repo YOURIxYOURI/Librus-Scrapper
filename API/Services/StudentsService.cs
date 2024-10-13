@@ -17,28 +17,28 @@ namespace API.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<StudentDTO>> GetAllStudentsAsync()
+        public async Task<IEnumerable<StudentRequestDTO>> GetAllStudentsAsync()
         {
             var studentDbos = await _studentRepository.GetAllStudentsAsync();
-            return _mapper.Map<IEnumerable<StudentDTO>>(studentDbos);
+            return _mapper.Map<IEnumerable<StudentRequestDTO>>(studentDbos);
         }
 
-        public async Task<StudentDTO> GetStudentByIdAsync(Guid id)
+        public async Task<StudentRequestDTO> GetStudentByIdAsync(Guid? id)
         {
             var studentDbo = await _studentRepository.GetStudentByIdAsync(id);
             if (studentDbo == null) return null;
 
-            return _mapper.Map<StudentDTO>(studentDbo);
+            return _mapper.Map<StudentRequestDTO>(studentDbo);
         }
 
-        public async Task AddStudentAsync(StudentDTO studentDto)
+        public async Task AddStudentAsync(StudentRequestDTO studentDto)
         {
             var studentDbo = _mapper.Map<StudentDBO>(studentDto);
             await _studentRepository.AddStudentAsync(studentDbo);
             await _studentRepository.SaveChangesAsync();
         }
 
-        public async Task UpdateStudentAsync(StudentDTO studentDto)
+        public async Task UpdateStudentAsync(StudentRequestDTO studentDto)
         {
             var studentDbo = await _studentRepository.GetStudentByIdAsync(studentDto.Id);
             if (studentDbo == null) return;
@@ -48,7 +48,7 @@ namespace API.Services
             await _studentRepository.SaveChangesAsync();
         }
 
-        public async Task DeleteStudentAsync(Guid id)
+        public async Task DeleteStudentAsync(Guid? id)
         {
             var studentDbo = await _studentRepository.GetStudentByIdAsync(id);
             if (studentDbo == null) return;

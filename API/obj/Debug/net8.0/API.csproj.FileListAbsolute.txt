@@ -103,3 +103,4 @@ D:\projects\Librus-Scrapper\API\obj\Debug\net8.0\refint\API.dll
 D:\projects\Librus-Scrapper\API\obj\Debug\net8.0\API.pdb
 D:\projects\Librus-Scrapper\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\projects\Librus-Scrapper\API\obj\Debug\net8.0\ref\API.dll
+D:\projects\Librus-Scrapper\API\bin\Debug\net8.0\AutoMapper.dll

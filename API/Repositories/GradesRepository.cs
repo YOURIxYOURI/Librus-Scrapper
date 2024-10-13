@@ -19,7 +19,7 @@ namespace API.Repositories
             return await _context.Grades.ToListAsync();
         }
 
-        public async Task<GradesDBO> GetGradeByIdAsync(Guid id)
+        public async Task<GradesDBO> GetGradeByIdAsync(Guid? id)
         {
             return await _context.Grades.FindAsync(id);
         }

@@ -4,10 +4,10 @@ namespace API.Services.Interfaces
 {
     public interface IGradesServices
     {
-        Task<IEnumerable<GradesDTO>> GetAllGradesAsync();
-        Task<GradesDTO> GetGradeByIdAsync(Guid id);
-        Task AddGradeAsync(GradesDTO gradeDto);
-        Task UpdateGradeAsync(GradesDTO gradeDto);
-        Task DeleteGradeAsync(Guid id);
+        Task<IEnumerable<GradesRequestDTO>> GetAllGradesAsync();
+        Task<GradesRequestDTO> GetGradeByIdAsync(Guid? id);
+        Task AddGradeAsync(GradesRequestDTO gradeDto);
+        Task UpdateGradeAsync(GradesRequestDTO gradeDto);
+        Task DeleteGradeAsync(Guid? id);
     }
 }

@@ -11,6 +11,8 @@ namespace API
         {
             CreateMap<StudentDBO, StudentDTO>().ReverseMap();
             CreateMap<GradesDBO, GradesDTO>().ReverseMap();
+            CreateMap<StudentDBO, StudentRequestDTO>().ReverseMap();
+            CreateMap<GradesDBO, GradesRequestDTO>().ReverseMap();
         }
     }
 }

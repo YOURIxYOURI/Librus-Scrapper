@@ -25,7 +25,7 @@ namespace API.Controllers
 
         // GET: api/grade/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<GradesDTO>> GetGradeById(Guid id)
+        public async Task<ActionResult<GradesDTO>> GetGradeById(Guid? id)
         {
             var grade = await _gradeService.GetGradeByIdAsync(id);
             if (grade == null) return NotFound();
@@ -35,19 +35,18 @@ namespace API.Controllers
 
         // POST: api/grade
         [HttpPost]
-        public async Task<ActionResult> AddGrade(GradesDTO gradeDto)
+        public async Task<ActionResult> AddGrade(GradesRequestDTO gradeDto)
         {
             await _gradeService.AddGradeAsync(gradeDto);
-            return CreatedAtAction(nameof(GetGradeById), new { id = gradeDto.Id }, gradeDto);
+            return Ok();
         }
 
         // PUT: api/grade/{id}
-        [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateGrade(Guid id, GradesDTO gradeDto)
+        [HttpPut]
+        public async Task<ActionResult> UpdateGrade( GradesRequestDTO gradeDto)
         {
-            if (id != gradeDto.Id) return BadRequest();
 
-            var grade = await _gradeService.GetGradeByIdAsync(id);
+            var grade = await _gradeService.GetGradeByIdAsync(gradeDto.Id);
             if (grade == null) return NotFound();
 
             await _gradeService.UpdateGradeAsync(gradeDto);

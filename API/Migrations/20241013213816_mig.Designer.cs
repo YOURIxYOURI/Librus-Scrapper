@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241009152007_mig")]
+    [Migration("20241013213816_mig")]
     partial class mig
     {
         /// <inheritdoc />
@@ -58,7 +58,7 @@ namespace API.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<string>("MappingProfile")
+                    b.Property<string>("Class")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -70,12 +70,7 @@ namespace API.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<Guid?>("StudentDBOId")
-                        .HasColumnType("char(36)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("StudentDBOId");
 
                     b.ToTable("Students");
                 });
@@ -83,19 +78,12 @@ namespace API.Migrations
             modelBuilder.Entity("API.DBOs.GradesDBO", b =>
                 {
                     b.HasOne("API.DBOs.StudentDBO", "Student")
-                        .WithMany()
+                        .WithMany("Grades")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Student");
-                });
-
-            modelBuilder.Entity("API.DBOs.StudentDBO", b =>
-                {
-                    b.HasOne("API.DBOs.StudentDBO", null)
-                        .WithMany("Grades")
-                        .HasForeignKey("StudentDBOId");
                 });
 
             modelBuilder.Entity("API.DBOs.StudentDBO", b =>

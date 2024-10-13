@@ -17,28 +17,28 @@ namespace API.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<GradesDTO>> GetAllGradesAsync()
+        public async Task<IEnumerable<GradesRequestDTO>> GetAllGradesAsync()
         {
             var gradeDbos = await _gradeRepository.GetAllGradesAsync();
-            return _mapper.Map<IEnumerable<GradesDTO>>(gradeDbos);
+            return _mapper.Map<IEnumerable<GradesRequestDTO>>(gradeDbos);
         }
 
-        public async Task<GradesDTO> GetGradeByIdAsync(Guid id)
+        public async Task<GradesRequestDTO> GetGradeByIdAsync(Guid? id)
         {
             var gradeDbo = await _gradeRepository.GetGradeByIdAsync(id);
             if (gradeDbo == null) return null;
 
-            return _mapper.Map<GradesDTO>(gradeDbo);
+            return _mapper.Map<GradesRequestDTO>(gradeDbo);
         }
 
-        public async Task AddGradeAsync(GradesDTO gradeDto)
+        public async Task AddGradeAsync(GradesRequestDTO gradeDto)
         {
             var gradeDbo = _mapper.Map<GradesDBO>(gradeDto);
             await _gradeRepository.AddGradeAsync(gradeDbo);
             await _gradeRepository.SaveChangesAsync();
         }
 
-        public async Task UpdateGradeAsync(GradesDTO gradeDto)
+        public async Task UpdateGradeAsync(GradesRequestDTO gradeDto)
         {
             var gradeDbo = await _gradeRepository.GetGradeByIdAsync(gradeDto.Id);
             if (gradeDbo == null) return;
@@ -48,7 +48,7 @@ namespace API.Services
             await _gradeRepository.SaveChangesAsync();
         }
 
-        public async Task DeleteGradeAsync(Guid id)
+        public async Task DeleteGradeAsync(Guid? id)
         {
             var gradeDbo = await _gradeRepository.GetGradeByIdAsync(id);
             if (gradeDbo == null) return;

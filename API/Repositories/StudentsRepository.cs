@@ -18,7 +18,7 @@ namespace API.Repositories
             return await _context.Students.ToListAsync();
         }
 
-        public async Task<StudentDBO> GetStudentByIdAsync(Guid id)
+        public async Task<StudentDBO> GetStudentByIdAsync(Guid? id)
         {
             return await _context.Students.FindAsync(id);
         }

@@ -25,7 +25,7 @@ namespace API.Controllers
 
         // GET: api/student/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<StudentDTO>> GetStudentById(Guid id)
+        public async Task<ActionResult<StudentDTO>> GetStudentById(Guid? id)
         {
             var student = await _studentService.GetStudentByIdAsync(id);
             if (student == null) return NotFound();
@@ -35,19 +35,17 @@ namespace API.Controllers
 
         // POST: api/student
         [HttpPost]
-        public async Task<ActionResult> AddStudent(StudentDTO studentDto)
+        public async Task<ActionResult> AddStudent(StudentRequestDTO studentDto)
         {
             await _studentService.AddStudentAsync(studentDto);
-            return CreatedAtAction(nameof(GetStudentById), new { id = studentDto.Id }, studentDto);
+            return Ok();
         }
 
         // PUT: api/student/{id}
-        [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateStudent(Guid id, StudentDTO studentDto)
+        [HttpPut]
+        public async Task<ActionResult> UpdateStudent( StudentRequestDTO studentDto)
         {
-            if (id != studentDto.Id) return BadRequest();
-
-            var student = await _studentService.GetStudentByIdAsync(id);
+            var student = await _studentService.GetStudentByIdAsync(studentDto.Id);
             if (student == null) return NotFound();
 
             await _studentService.UpdateStudentAsync(studentDto);
