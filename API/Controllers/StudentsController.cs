@@ -35,7 +35,7 @@ namespace API.Controllers
 
         // POST: api/student
         [HttpPost]
-        public async Task<ActionResult> AddStudent(StudentRequestDTO studentDto)
+        public async Task<ActionResult> AddStudent([FromBody] StudentRequestDTO studentDto)
         {
             await _studentService.AddStudentAsync(studentDto);
             return Ok();
@@ -43,7 +43,7 @@ namespace API.Controllers
 
         // PUT: api/student/{id}
         [HttpPut]
-        public async Task<ActionResult> UpdateStudent( StudentRequestDTO studentDto)
+        public async Task<ActionResult> UpdateStudent([FromBody] StudentRequestDTO studentDto)
         {
             var student = await _studentService.GetStudentByIdAsync(studentDto.Id);
             if (student == null) return NotFound();

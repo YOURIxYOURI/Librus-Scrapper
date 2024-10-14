@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\projects\\Librus-Scrapper\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\gradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\interfaces\\igradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -98,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GradesDBO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DBOs\\GradesDBO.cs",
               "RelativeDocumentMoniker": "DBOs\\GradesDBO.cs",
@@ -110,12 +110,11 @@
               "RelativeToolTip": "DBOs\\GradesDBO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:19:31.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T22:19:31.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IGradesRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IGradesRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IGradesRepository.cs",
@@ -123,12 +122,11 @@
               "RelativeToolTip": "Repositories\\interfaces\\IGradesRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:04:33.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T22:04:33.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GradesRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\GradesRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\GradesRepository.cs",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "Repositories\\GradesRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:04:12.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T22:04:12.139Z"
             },
             {
               "$type": "Document",
@@ -149,8 +146,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-13T22:04:04.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T22:04:04.385Z"
             },
             {
               "$type": "Document",
@@ -162,12 +158,11 @@
               "RelativeToolTip": "API.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-13T22:04:03.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T22:04:03.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StudentDBO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DBOs\\StudentDBO.cs",
               "RelativeDocumentMoniker": "DBOs\\StudentDBO.cs",
@@ -175,12 +170,11 @@
               "RelativeToolTip": "DBOs\\StudentDBO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T22:00:19.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T22:00:19.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IGradesServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IGradesServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IGradesServices.cs",
@@ -188,12 +182,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IGradesServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:58:44.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:58:44.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StudentsService.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\StudentsService.cs",
               "RelativeDocumentMoniker": "Services\\StudentsService.cs",
@@ -201,12 +194,11 @@
               "RelativeToolTip": "Services\\StudentsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:44:39.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:44:39.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GradesService.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\GradesService.cs",
               "RelativeDocumentMoniker": "Services\\GradesService.cs",
@@ -214,12 +206,11 @@
               "RelativeToolTip": "Services\\GradesService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:56:41.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:56:41.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IStudentsServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IStudentsServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentsServices.cs",
@@ -227,12 +218,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IStudentsServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:56:40.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:56:40.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "StudentsRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\StudentsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\StudentsRepository.cs",
@@ -240,12 +230,11 @@
               "RelativeToolTip": "Repositories\\StudentsRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:55:45.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:55:45.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IStudentsRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IStudentsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IStudentsRepository.cs",
@@ -253,38 +242,37 @@
               "RelativeToolTip": "Repositories\\interfaces\\IStudentsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:55:33.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:55:33.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T21:55:00.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GradesController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\GradesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GradesController.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\GradesController.cs",
               "RelativeToolTip": "Controllers\\GradesController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowC4AAAAIAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wC4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T21:54:41.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\StudentDTO.cs",
@@ -297,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GradesDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\GradesDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\GradesDTO.cs",
@@ -305,8 +293,7 @@
               "RelativeToolTip": "DTOs\\GradesDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:51:50.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:51:50.142Z"
             },
             {
               "$type": "Document",
@@ -318,8 +305,7 @@
               "RelativeToolTip": "Migrations\\20241013213950_mig1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:39:50.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:39:50.965Z"
             },
             {
               "$type": "Document",
@@ -331,8 +317,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:39:16.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:39:16.635Z"
             },
             {
               "$type": "Document",
@@ -344,8 +329,7 @@
               "RelativeToolTip": "AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:39:14.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:39:14.133Z"
             },
             {
               "$type": "Document",
@@ -357,8 +341,7 @@
               "RelativeToolTip": "MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:39:12.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:39:12.423Z"
             },
             {
               "$type": "Document",
@@ -370,8 +353,7 @@
               "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:38:25.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:38:25.54Z"
             },
             {
               "$type": "Document",
@@ -383,8 +365,7 @@
               "RelativeToolTip": "Migrations\\20241013213816_mig.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:38:16.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T21:38:16.356Z"
             }
           ]
         }
