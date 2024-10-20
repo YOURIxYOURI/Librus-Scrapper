@@ -11,37 +11,41 @@
 (function() {
     'use strict';
 
+    // Znajdź element z imieniem, nazwiskiem i klasą ucznia
     const infoElement = document.querySelector('.container-icon td p');
 
     if (infoElement) {
+        // Pobranie tekstu z elementu
         const infoText = infoElement.innerText;
 
+        // Rozdzielenie informacji na części
         const nameMatch = infoText.match(/Uczeń:\s(.+)\n/);
         const classMatch = infoText.match(/Klasa:\s(.+)\s/);
 
         if (nameMatch && classMatch) {
-            const fullName = nameMatch[1]; 
-            const className = classMatch[1]; 
+            const fullName = nameMatch[1];   // Pobiera imię i nazwisko
+            const className = classMatch[1]; // Pobiera nazwę klasy
 
             // Podział imienia i nazwiska na osobne części
             const [firstName, lastName] = fullName.split(' ');
 
             // Stworzenie obiektu JSON
             const studentData = {
-                firstname: lastName,
-                lastname: firstName,
+                firstname: firstName,
+                lastname: lastName,
                 class: className
             };
 
+            // Wyświetlenie danych w formie JSON
             console.log('Dane ucznia (JSON):', studentData);
 
+            // Wysłanie danych do API
             fetch('https://localhost:7290/api/Students', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                mode: 'no-cors',
-                body: JSON.stringify(studentData),
+                body: JSON.stringify(studentData)
             })
             .then(response => {
                 if (response.ok) {
