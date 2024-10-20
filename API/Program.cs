@@ -17,6 +17,16 @@ builder.Services.AddScoped<IGradesServices, GradesService>();
 builder.Services.AddScoped<IStudentsRepository, StudentsRepository>();
 builder.Services.AddScoped<IGradeRepository, GradesRepository>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()   // Pozwala na dostêp z dowolnej domeny
+                   .AllowAnyHeader()   // Pozwala na dowolne nag³ówki
+                   .AllowAnyMethod();  // Pozwala na dowolne metody HTTP (GET, POST, PUT, DELETE, itd.)
+        });
+});
 
 builder.Services.AddControllers();
 
@@ -37,6 +47,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

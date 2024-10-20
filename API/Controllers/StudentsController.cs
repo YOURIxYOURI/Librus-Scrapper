@@ -37,6 +37,7 @@ namespace API.Controllers
         [HttpPost]
         public async Task<ActionResult> AddStudent([FromBody] StudentRequestDTO studentDto)
         {
+        {
             await _studentService.AddStudentAsync(studentDto);
             return Ok();
         }
