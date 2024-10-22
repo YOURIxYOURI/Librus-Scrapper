@@ -42,5 +42,10 @@ namespace API.Repositories
         {
             return await _context.SaveChangesAsync() > 0;
         }
+        public async Task<StudentDBO> GetStudentByNameAndClassAsync(string firstname, string lastname, string className)
+        {
+            return await _context.Students
+                .FirstOrDefaultAsync(s => s.FirstName == firstname && s.LastName == lastname && s.Class == className);
+        }
     }
 }

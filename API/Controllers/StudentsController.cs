@@ -19,6 +19,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetAllStudents()
         {
+
             var students = await _studentService.GetAllStudentsAsync();
             return Ok(students);
         }
@@ -37,7 +38,7 @@ namespace API.Controllers
         [HttpPost]
         public async Task<ActionResult> AddStudent([FromBody] StudentRequestDTO studentDto)
         {
-        {
+
             await _studentService.AddStudentAsync(studentDto);
             return Ok();
         }
@@ -63,5 +64,24 @@ namespace API.Controllers
             await _studentService.DeleteStudentAsync(id);
             return NoContent();
         }
+        // POST: api/student/withGrades
+        [HttpPost("withGrades")]
+        public async Task<IActionResult> PostStudentWithGrades([FromBody] StudentRequestDTO studentDto)
+        {
+            if (studentDto == null)
+            {
+                return BadRequest("Invalid student data.");
+            }
+
+            var result = await _studentService.AddStudentWithGradesAsync(studentDto);
+
+            if (result == null)
+            {
+                return BadRequest("Failed to add student and grades.");
+            }
+
+            return Ok();
+        }
     }
 }
+

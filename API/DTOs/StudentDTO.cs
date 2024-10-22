@@ -1,6 +1,4 @@
-﻿using API.DBOs;
-
-namespace API.DTOs
+﻿namespace API.DTOs
 {
     public class StudentDTO
     {
@@ -8,13 +6,15 @@ namespace API.DTOs
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Class { get; set; }
-        public IList<StudentDBO> Grades { get; set; }
+        public IList<GradesDTO> Grades { get; set; } = new List<GradesDTO>();
     }
     public class StudentRequestDTO
     {
-        public Guid ?Id { get; set; }
-        public string ?FirstName { get; set; }
-        public string ?LastName { get; set; }
-        public string ?Class { get; set; }
+        public Guid? Id { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? Class { get; set; }
+
+        public IList<GradesRequestDTO>? Grades { get; set; } = new List<GradesRequestDTO>();
     }
 }

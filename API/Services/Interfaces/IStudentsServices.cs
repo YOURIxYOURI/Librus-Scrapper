@@ -9,5 +9,6 @@ namespace API.Services.Interfaces
         Task AddStudentAsync(StudentRequestDTO studentDto);
         Task UpdateStudentAsync(StudentRequestDTO studentDto);
         Task DeleteStudentAsync(Guid? id);
+        Task<bool> AddStudentWithGradesAsync(StudentRequestDTO studentDto);
     }
 }

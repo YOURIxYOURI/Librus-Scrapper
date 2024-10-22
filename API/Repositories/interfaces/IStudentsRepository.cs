@@ -10,5 +10,6 @@ namespace API.Repositories.interfaces
         Task UpdateStudentAsync(StudentDBO student);
         Task DeleteStudentAsync(StudentDBO student);
         Task<bool> SaveChangesAsync();
+        Task<StudentDBO> GetStudentByNameAndClassAsync(string firstname, string lastname, string className);
     }
 }
