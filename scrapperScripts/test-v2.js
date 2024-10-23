@@ -67,7 +67,7 @@
                     Category: category,
                     Date: date,
                     Teacher: teacher,
-                    Weight: weight,
+                    Weigth: weight,
                     Comment: comment,
                     CountToAvg: count
                 });

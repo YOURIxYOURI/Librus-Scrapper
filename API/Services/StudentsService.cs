@@ -12,8 +12,9 @@ namespace API.Services
         private readonly IGradeRepository _gradeRepository;
         private readonly IMapper _mapper;
 
-        public StudentsService(IStudentsRepository studentRepository, IMapper mapper)
+        public StudentsService(IStudentsRepository studentRepository, IMapper mapper, IGradeRepository gradeRepository)
         {
+            _gradeRepository = gradeRepository;
             _studentRepository = studentRepository;
             _mapper = mapper;
         }
