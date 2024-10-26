@@ -81,6 +81,8 @@ namespace API.Services
                 existingStudent = newStudent;
             }
 
+            existingStudent.Grades.Clear();
+
             foreach (var gradeData in studentDto.Grades)
             {
                 var newGrade = _mapper.Map<GradesDBO>(gradeData);
