@@ -1,7 +1,6 @@
 ﻿using API.DBOs;
-using AutoMapper;
 using API.DTOs;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using AutoMapper;
 
 namespace API
 {
@@ -13,6 +12,8 @@ namespace API
             CreateMap<GradesDBO, GradesDTO>().ReverseMap();
             CreateMap<StudentDBO, StudentRequestDTO>().ReverseMap();
             CreateMap<GradesDBO, GradesRequestDTO>().ReverseMap();
+            CreateMap<AttendanceDBO, AttendanceDTO>().ReverseMap();
+            CreateMap<AttendanceDBO, AttendanceRequestDTO>().ReverseMap();
         }
     }
 }

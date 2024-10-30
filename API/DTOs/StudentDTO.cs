@@ -1,4 +1,6 @@
-﻿namespace API.DTOs
+﻿using API.DBOs;
+
+namespace API.DTOs
 {
     public class StudentDTO
     {
@@ -7,6 +9,7 @@
         public string LastName { get; set; }
         public string Class { get; set; }
         public IList<GradesDTO> Grades { get; set; } = new List<GradesDTO>();
+        public IList<AttendanceDBO> Attendances { get; set; } = new List<AttendanceDBO>();
     }
     public class StudentRequestDTO
     {
@@ -14,7 +17,7 @@
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Class { get; set; }
-
         public IList<GradesRequestDTO>? Grades { get; set; } = new List<GradesRequestDTO>();
+        public IList<AttendanceDBO>? Attendances { get; set; } = new List<AttendanceDBO>();
     }
 }

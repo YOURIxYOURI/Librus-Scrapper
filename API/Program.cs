@@ -10,12 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
+// Rejestracja repozytoriów
 builder.Services.AddScoped<IStudentsServices, StudentsService>();
 builder.Services.AddScoped<IGradesServices, GradesService>();
 
-// Rejestracja repozytoriów
 builder.Services.AddScoped<IStudentsRepository, StudentsRepository>();
 builder.Services.AddScoped<IGradeRepository, GradesRepository>();
+
+builder.Services.AddScoped<IAttendanceRepository, AttendanceRepository>();
+builder.Services.AddScoped<IAttendanceServices, AttendanceServices>();
 
 builder.Services.AddCors(options =>
 {

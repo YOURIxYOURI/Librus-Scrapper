@@ -7,5 +7,6 @@
         public string LastName { get; set; }
         public string Class { get; set; }
         public IList<GradesDBO> Grades { get; set; } = new List<GradesDBO>();
+        public IList<AttendanceDBO> Attendances { get; set; } = new List<AttendanceDBO>();
     }
 }

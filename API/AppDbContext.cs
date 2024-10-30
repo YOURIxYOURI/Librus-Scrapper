@@ -9,5 +9,6 @@ namespace API
 
         public DbSet<GradesDBO> Grades { get; set; }
         public DbSet<StudentDBO> Students { get; set; }
+        public DbSet<AttendanceDBO> Attendances { get; set; }
     }
 }
