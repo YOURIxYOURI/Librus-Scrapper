@@ -22,18 +22,30 @@ namespace API.Controllers
             return Ok(attendances);
         }
 
-        [HttpPost("{studentId}")]
-        public async Task<IActionResult> AddAttendance(Guid studentId, [FromBody] AttendanceDTO attendanceDto)
-        {
-            await _service.AddAttendanceAsync(attendanceDto, studentId);
-            return Ok();
-        }
-
         [HttpDelete("{studentId}")]
         public async Task<IActionResult> DeleteAttendances(Guid studentId)
         {
             await _service.DeleteAllAttendancesForStudentAsync(studentId);
             return NoContent();
+        }
+        [HttpPost]
+        public async Task<IActionResult> PostAttendance([FromBody] List<AttendanceRequestDTO> attendanceList)
+        {
+            if (attendanceList == null || !attendanceList.Any())
+            {
+                return BadRequest("Brak danych obecności do zapisania.");
+            }
+
+            try
+            {
+                await _service.AddAttendanceFromListAsync(attendanceList);
+
+                return Ok("Dane obecności zapisane pomyślnie.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Błąd podczas zapisu danych obecności: {ex.Message}");
+            }
         }
     }
 }

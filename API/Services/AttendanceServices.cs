@@ -8,11 +8,13 @@ namespace API.Services
 {
     public class AttendanceServices : IAttendanceServices
     {
+        private readonly IStudentsRepository _studentsRepository;
         private readonly IAttendanceRepository _attendanceRepository;
         private readonly IMapper _mapper;
 
-        public AttendanceServices(IAttendanceRepository attendanceRepository, IMapper mapper)
+        public AttendanceServices(IAttendanceRepository attendanceRepository, IMapper mapper, IStudentsRepository studentsRepository)
         {
+            _studentsRepository = studentsRepository;
             _attendanceRepository = attendanceRepository;
             _mapper = mapper;
         }
@@ -23,11 +25,21 @@ namespace API.Services
             return _mapper.Map<IEnumerable<AttendanceDTO>>(attendances);
         }
 
-        public async Task AddAttendanceAsync(AttendanceRequestDTO attendanceDto)
+        public async Task AddAttendanceFromListAsync(List<AttendanceRequestDTO> attendanceDtoList)
         {
-            var attendanceDTO = _mapper.Map<AttendanceDTO>(attendanceDto);
-            var attendanceDBO = _mapper.Map<AttendanceDBO>(attendanceDTO);
-            await _attendanceRepository.AddAttendanceAsync(attendanceDBO);
+            foreach (var attendanceDto in attendanceDtoList)
+            {
+                var student = await _studentsRepository.GetStudentByNameAndClassAsync(attendanceDto.Student.FirstName, attendanceDto.Student.LastName, attendanceDto.Student.Class);
+
+                if (student == null)
+                {
+                    throw new ArgumentException("Student not found.");
+                }
+
+                var attendanceEntry = _mapper.Map<AttendanceDBO>(attendanceDto);
+                attendanceEntry.StudentId = student.Id;
+                await _attendanceRepository.AddAttendanceAsync(attendanceEntry);
+            }
         }
 
         public async Task DeleteAllAttendancesForStudentAsync(Guid studentId)
