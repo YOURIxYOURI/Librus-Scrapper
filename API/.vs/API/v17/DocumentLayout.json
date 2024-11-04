@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\projects\\Librus-Scrapper\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\gradesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\gradesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,14 +55,6 @@
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\interfaces\\igradesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\gradesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\gradesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dbos\\attendancedbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dbos\\attendancedbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\MappingProfile.cs",
               "RelativeDocumentMoniker": "MappingProfile.cs",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IAttendanceRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IAttendanceRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IAttendanceRepository.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AttendanceRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\AttendanceRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AttendanceRepository.cs",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IAttendanceServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IAttendanceServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAttendanceServices.cs",
@@ -155,12 +155,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IAttendanceServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:34:41.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T17:34:41.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AttendanceServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\AttendanceServices.cs",
               "RelativeDocumentMoniker": "Services\\AttendanceServices.cs",
@@ -168,12 +167,11 @@
               "RelativeToolTip": "Services\\AttendanceServices.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:32:38.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T17:32:38.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AttendancesController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\AttendancesController.cs",
               "RelativeDocumentMoniker": "Controllers\\AttendancesController.cs",
@@ -181,25 +179,24 @@
               "RelativeToolTip": "Controllers\\AttendancesController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCMAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:52:57.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T16:52:57.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "AttendanceDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\AttendanceDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\AttendanceDTO.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\AttendanceDTO.cs",
               "RelativeToolTip": "DTOs\\AttendanceDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T16:48:37.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AttendanceDBO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DBOs\\AttendanceDBO.cs",
               "RelativeDocumentMoniker": "DBOs\\AttendanceDBO.cs",
@@ -211,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GradesController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\GradesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GradesController.cs",
@@ -219,12 +216,11 @@
               "RelativeToolTip": "Controllers\\GradesController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:27:06.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T15:27:06.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext.cs",
@@ -236,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -244,12 +240,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:43:34.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T21:43:34.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GradesService.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\GradesService.cs",
               "RelativeDocumentMoniker": "Services\\GradesService.cs",
@@ -285,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IGradesServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IGradesServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IGradesServices.cs",
@@ -293,12 +288,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IGradesServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:41:03.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T21:41:03.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IStudentsServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IStudentsServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentsServices.cs",
@@ -306,8 +300,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IStudentsServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:41:01.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T21:41:01.893Z"
             },
             {
               "$type": "Document",
@@ -335,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "StudentsService.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\StudentsService.cs",
               "RelativeDocumentMoniker": "Services\\StudentsService.cs",
@@ -343,12 +336,11 @@
               "RelativeToolTip": "Services\\StudentsService.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAcwFMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:26:56.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T21:26:56.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
@@ -356,12 +348,11 @@
               "RelativeToolTip": "Controllers\\StudentsController.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAIwE0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:20:04.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T21:20:04.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\StudentDTO.cs",
@@ -369,7 +360,8 @@
               "RelativeToolTip": "DTOs\\StudentDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:52:26.525Z"
+              "WhenOpened": "2024-10-22T20:52:26.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -385,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "GradesDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\GradesDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\GradesDTO.cs",
@@ -393,7 +385,8 @@
               "RelativeToolTip": "DTOs\\GradesDTO.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwBsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T20:36:33.905Z"
+              "WhenOpened": "2024-10-22T20:36:33.905Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

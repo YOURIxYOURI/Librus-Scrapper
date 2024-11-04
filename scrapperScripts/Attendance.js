@@ -25,12 +25,11 @@ const student = JSON.parse(sessionStorage.getItem("student"));
 
       attendanceData = Array.from(rows).map(row => {
           const details = Array.from(row.querySelectorAll("p.box a")).map(link => ({
-              type: link.getAttribute("title").match(/Rodzaj: (.*?)<br>/)[1],
-              date: link.getAttribute("title").match(/Data: (.*?)<br>/)[1].split(" ")[0],
-              lesson: link.getAttribute("title").match(/Lekcja: (.*?)<br>/)[1],
-              topic: link.getAttribute("title").match(/Temat zajęć: (.*?)<br>/)[1],
-              teacher: link.getAttribute("title").match(/Nauczyciel: (.*?)<br>/)[1],
-              hour: link.getAttribute("title").match(/Godzina lekcyjna: (.*?)<\/b>/)[1],
+              AttendanceType: link.getAttribute("title").match(/Rodzaj: (.*?)<br>/)[1],
+              Date: link.getAttribute("title").match(/Data: (.*?)<br>/)[1].split(" ")[0],
+              Subject: link.getAttribute("title").match(/Lekcja: (.*?)<br>/)[1],
+              Teacher: link.getAttribute("title").match(/Nauczyciel: (.*?)<br>/)[1],
+              LessonNumber: link.getAttribute("title").match(/Godzina lekcyjna: (.*?)<\/b>/)[1],
               student: student
           }));
 
