@@ -27,15 +27,29 @@ namespace API.Services
 
         public async Task AddAttendanceFromListAsync(List<AttendanceRequestDTO> attendanceDtoList)
         {
+            var student = await _studentsRepository.GetStudentByNameAndClassAsync(attendanceDtoList[0].Student.FirstName, attendanceDtoList[0].Student.LastName, attendanceDtoList[0].Student.Class);
+            if (student == null)
+            {
+                if (attendanceDtoList[0].Student.FirstName != null || attendanceDtoList[0].Student.FirstName != "")
+                {
+                    var newStudent = new StudentDBO
+                    {
+                        FirstName = attendanceDtoList[0].Student.FirstName,
+                        LastName = attendanceDtoList[0].Student.LastName,
+                        Class = attendanceDtoList[0].Student.Class
+                    };
+
+                    await _studentsRepository.AddStudentAsync(newStudent);
+                    await _studentsRepository.SaveChangesAsync();
+
+                    student = newStudent;
+                }
+            }
+
+            await DeleteAllAttendancesForStudentAsync(student.Id);
+
             foreach (var attendanceDto in attendanceDtoList)
             {
-                var student = await _studentsRepository.GetStudentByNameAndClassAsync(attendanceDto.Student.FirstName, attendanceDto.Student.LastName, attendanceDto.Student.Class);
-
-                if (student == null)
-                {
-                    throw new ArgumentException("Student not found.");
-                }
-
                 var attendanceEntry = _mapper.Map<AttendanceDBO>(attendanceDto);
                 attendanceEntry.StudentId = student.Id;
                 await _attendanceRepository.AddAttendanceAsync(attendanceEntry);

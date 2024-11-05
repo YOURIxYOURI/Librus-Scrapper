@@ -1,5 +1,4 @@
 ﻿using API.DBOs;
-using API.DTOs;
 using API.Repositories.interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -41,6 +40,12 @@ namespace API.Repositories
         public async Task<bool> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync() > 0;
+        }
+        public async Task DeleteAllGradesByStudentIdAsync(Guid studentId)
+        {
+            var grades = _context.Grades.Where(g => g.StudentId == studentId);
+            _context.Grades.RemoveRange(grades);
+            await _context.SaveChangesAsync();
         }
 
     }

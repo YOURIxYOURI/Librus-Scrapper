@@ -81,7 +81,7 @@ namespace API.Services
                 existingStudent = newStudent;
             }
 
-            existingStudent.Grades.Clear();
+            await _gradeRepository.DeleteAllGradesByStudentIdAsync(existingStudent.Id);
 
             foreach (var gradeData in studentDto.Grades)
             {

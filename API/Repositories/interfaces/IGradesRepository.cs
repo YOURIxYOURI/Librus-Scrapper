@@ -1,5 +1,4 @@
 ﻿using API.DBOs;
-using API.DTOs;
 
 namespace API.Repositories.interfaces
 {
@@ -10,6 +9,7 @@ namespace API.Repositories.interfaces
         Task AddGradeAsync(GradesDBO gradeDbo);
         Task UpdateGradeAsync(GradesDBO gradeDbo);
         Task DeleteGradeAsync(GradesDBO gradeDbo);
+        Task DeleteAllGradesByStudentIdAsync(Guid studentId);
         Task<bool> SaveChangesAsync();
     }
 }
