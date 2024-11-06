@@ -7,5 +7,6 @@ namespace API.Repositories.interfaces
         Task DeleteAttendancesByStudentIdAsync(Guid studentId);
         Task AddAttendanceAsync(AttendanceDBO attendance);
         Task<IEnumerable<AttendanceDBO>> GetAttendancesByStudentIdAsync(Guid studentId);
+        Task<bool> SaveChangesAsync();
     }
 }

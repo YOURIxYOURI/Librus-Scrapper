@@ -33,5 +33,9 @@ namespace API.Repositories
             _context.Attendances.RemoveRange(attendances);
             await _context.SaveChangesAsync();
         }
+        public async Task<bool> SaveChangesAsync()
+        {
+            return await _context.SaveChangesAsync() > 0;
+        }
     }
 }

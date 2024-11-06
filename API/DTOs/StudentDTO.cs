@@ -18,6 +18,6 @@ namespace API.DTOs
         public string? LastName { get; set; }
         public string? Class { get; set; }
         public IList<GradesRequestDTO>? Grades { get; set; } = new List<GradesRequestDTO>();
-        public IList<AttendanceDBO>? Attendances { get; set; } = new List<AttendanceDBO>();
+        public IList<AttendanceRequestDTO>? Attendances { get; set; } = new List<AttendanceRequestDTO>();
     }
 }

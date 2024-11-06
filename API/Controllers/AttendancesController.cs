@@ -29,9 +29,9 @@ namespace API.Controllers
             return NoContent();
         }
         [HttpPost]
-        public async Task<IActionResult> PostAttendance([FromBody] List<AttendanceRequestDTO> attendanceList)
+        public async Task<IActionResult> PostAttendance([FromBody] StudentRequestDTO attendanceList)
         {
-            if (attendanceList == null || !attendanceList.Any())
+            if (attendanceList == null || !attendanceList.Attendances.Any())
             {
                 return BadRequest("Brak danych obecności do zapisania.");
             }

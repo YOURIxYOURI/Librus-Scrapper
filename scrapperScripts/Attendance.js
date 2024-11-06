@@ -21,7 +21,7 @@ const student = JSON.parse(sessionStorage.getItem("student"));
 
         var attendanceData = [];
 
-    const rows = document.querySelectorAll("tr.line0, tr.line1"); 
+    const rows = document.querySelectorAll("tr.line0, tr.line1");
 
       attendanceData = Array.from(rows).map(row => {
           const details = Array.from(row.querySelectorAll("p.box a")).map(link => ({
@@ -29,8 +29,7 @@ const student = JSON.parse(sessionStorage.getItem("student"));
               Date: link.getAttribute("title").match(/Data: (.*?)<br>/)[1].split(" ")[0],
               Subject: link.getAttribute("title").match(/Lekcja: (.*?)<br>/)[1],
               Teacher: link.getAttribute("title").match(/Nauczyciel: (.*?)<br>/)[1],
-              LessonNumber: link.getAttribute("title").match(/Godzina lekcyjna: (.*?)<\/b>/)[1],
-              student: student
+              LessonNumber: link.getAttribute("title").match(/Godzina lekcyjna: (.*?)<\/b>/)[1]
           }));
 
   return details ;
@@ -41,14 +40,21 @@ const student = JSON.parse(sessionStorage.getItem("student"));
         return;
     }
 
-   console.log(attendanceData)
+    const JSONData = {
+        FirstName: student.FirstName,
+        LastName: student.LastName,
+        Class: student.Class,
+        Attendances: attendanceData
+    }
+
+   console.log(JSONData)
     try {
         const response = fetch("https://localhost:7290/api/Attendances", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(attendanceData)
+            body: JSON.stringify(JSONData)
         });
 
         if (!response.ok) throw new Error("Błąd w odpowiedzi API.");
