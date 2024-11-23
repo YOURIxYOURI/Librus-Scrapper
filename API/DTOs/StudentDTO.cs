@@ -20,4 +20,15 @@ namespace API.DTOs
         public IList<GradesRequestDTO>? Grades { get; set; } = new List<GradesRequestDTO>();
         public IList<AttendanceRequestDTO>? Attendances { get; set; } = new List<AttendanceRequestDTO>();
     }
+
+    public class StudentResponseDTO
+    {
+        public Guid? Id { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? Class { get; set; }
+        public IList<GradesResponseDTO>? Grades { get; set; } = new List<GradesResponseDTO>();
+        public IList<AttendanceResponseDTO>? Attendances { get; set; } = new List<AttendanceResponseDTO>();
+    }
+
 }

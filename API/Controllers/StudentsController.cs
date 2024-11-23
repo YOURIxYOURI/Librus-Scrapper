@@ -33,6 +33,12 @@ namespace API.Controllers
 
             return Ok(student);
         }
+        [HttpPost("/details")]
+        public async Task<ActionResult<StudentResponseDTO>> GetStudentDetails([FromBody] StudentRequestDTO request)
+        {
+            var response = await _studentService.GetStudentWithDetailsAsync(request);
+            return Ok(response);
+        }
 
         // POST: api/student
         [HttpPost]

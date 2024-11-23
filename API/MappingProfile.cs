@@ -14,6 +14,9 @@ namespace API
             CreateMap<GradesDBO, GradesRequestDTO>().ReverseMap();
             CreateMap<AttendanceDBO, AttendanceDTO>().ReverseMap();
             CreateMap<AttendanceDBO, AttendanceRequestDTO>().ReverseMap();
+            CreateMap<GradesDBO, GradesResponseDTO>().ReverseMap();
+            CreateMap<AttendanceDBO, AttendanceResponseDTO>().ReverseMap();
+            CreateMap<StudentDBO, StudentResponseDTO>().ReverseMap();
         }
     }
 }

@@ -3,28 +3,60 @@
   "WorkspaceRootPath": "D:\\projects\\Librus-Scrapper\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\interfaces\\iattendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\interfaces\\iattendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\studentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\studentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\gradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\gradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\interfaces\\istudentsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\interfaces\\istudentsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\gradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\gradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\interfaces\\igradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\interfaces\\igradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\interfaces\\istudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\interfaces\\istudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\attendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,40 +67,20 @@
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dtos\\gradesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\attendancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:dbos\\studentdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\interfaces\\iattendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\interfaces\\iattendanceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\studentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\studentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\gradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\gradesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\gradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\gradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\services\\interfaces\\istudentsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:services\\interfaces\\istudentsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\dbos\\gradesdbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,20 +99,8 @@
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:controllers\\gradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\repositories\\interfaces\\istudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|solutionrelative:repositories\\interfaces\\istudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{180F4F15-C002-473B-98C9-C8683E5948E8}|API.csproj|d:\\projects\\librus-scrapper\\api\\migrations\\20241105195823_mig-05.11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,11 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "API.http",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\API.http",
               "RelativeDocumentMoniker": "API.http",
@@ -142,19 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\MappingProfile.cs",
               "RelativeDocumentMoniker": "MappingProfile.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\MappingProfile.cs",
               "RelativeToolTip": "MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:47:04.287Z"
+              "WhenOpened": "2024-10-30T17:47:04.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "IAttendanceRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IAttendanceRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IAttendanceRepository.cs",
@@ -162,12 +163,11 @@
               "RelativeToolTip": "Repositories\\interfaces\\IAttendanceRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:41:19.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T17:41:19.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "AttendanceRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\AttendanceRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AttendanceRepository.cs",
@@ -175,12 +175,11 @@
               "RelativeToolTip": "Repositories\\AttendanceRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:40:52.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T17:40:52.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "IAttendanceServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IAttendanceServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAttendanceServices.cs",
@@ -188,18 +187,17 @@
               "RelativeToolTip": "Services\\Interfaces\\IAttendanceServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:34:41.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T17:34:41.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "AttendanceServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\AttendanceServices.cs",
               "RelativeDocumentMoniker": "Services\\AttendanceServices.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Services\\AttendanceServices.cs",
               "RelativeToolTip": "Services\\AttendanceServices.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCwAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T17:32:38.553Z",
               "EditorCaption": ""
@@ -219,20 +217,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "AttendanceDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\AttendanceDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\AttendanceDTO.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\AttendanceDTO.cs",
               "RelativeToolTip": "DTOs\\AttendanceDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowB0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T16:48:37.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "AttendanceDBO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DBOs\\AttendanceDBO.cs",
               "RelativeDocumentMoniker": "DBOs\\AttendanceDBO.cs",
@@ -244,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "GradesController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\GradesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GradesController.cs",
@@ -256,69 +254,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\AppDbContext.cs",
               "RelativeToolTip": "AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:44:05.435Z"
+              "WhenOpened": "2024-10-22T21:44:05.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAABAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwCkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:43:34.882Z"
+              "WhenOpened": "2024-10-22T21:43:34.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "GradesService.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\GradesService.cs",
               "RelativeDocumentMoniker": "Services\\GradesService.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Services\\GradesService.cs",
               "RelativeToolTip": "Services\\GradesService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwDsAAAABAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwDsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:41:58.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "GradesRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\GradesRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\GradesRepository.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\GradesRepository.cs",
               "RelativeToolTip": "Repositories\\GradesRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wCcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:41:16.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 12,
               "Title": "IStudentsRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IStudentsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IStudentsRepository.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IStudentsRepository.cs",
               "RelativeToolTip": "Repositories\\interfaces\\IStudentsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T21:41:01.466Z"
+              "WhenOpened": "2024-10-22T21:41:01.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "IGradesServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IGradesServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IGradesServices.cs",
@@ -330,85 +331,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "IStudentsServices.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IStudentsServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentsServices.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Services\\Interfaces\\IStudentsServices.cs",
               "RelativeToolTip": "Services\\Interfaces\\IStudentsServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:41:01.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "IGradesRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IGradesRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IGradesRepository.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\interfaces\\IGradesRepository.cs",
               "RelativeToolTip": "Repositories\\interfaces\\IGradesRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:40:41.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "StudentsRepository.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\StudentsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\StudentsRepository.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Repositories\\StudentsRepository.cs",
               "RelativeToolTip": "Repositories\\StudentsRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDAAAAAIAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:32:20.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "StudentsService.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Services\\StudentsService.cs",
               "RelativeDocumentMoniker": "Services\\StudentsService.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Services\\StudentsService.cs",
               "RelativeToolTip": "Services\\StudentsService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAIwF4AAAAAAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAUwGcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:26:56.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwE0AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T21:20:04.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\StudentDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\StudentDTO.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\StudentDTO.cs",
               "RelativeToolTip": "DTOs\\StudentDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBQAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T20:52:26.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "StudentDBO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DBOs\\StudentDBO.cs",
               "RelativeDocumentMoniker": "DBOs\\StudentDBO.cs",
@@ -421,20 +422,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "GradesDTO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\GradesDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\GradesDTO.cs",
               "ToolTip": "D:\\projects\\Librus-Scrapper\\API\\DTOs\\GradesDTO.cs",
               "RelativeToolTip": "DTOs\\GradesDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAvAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwCUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T20:36:33.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "GradesDBO.cs",
               "DocumentMoniker": "D:\\projects\\Librus-Scrapper\\API\\DBOs\\GradesDBO.cs",
               "RelativeDocumentMoniker": "DBOs\\GradesDBO.cs",

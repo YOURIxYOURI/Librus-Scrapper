@@ -10,6 +10,7 @@ namespace API.Services
     {
         private readonly IStudentsRepository _studentRepository;
         private readonly IGradeRepository _gradeRepository;
+        private readonly IAttendanceRepository _attendanceRepository;
         private readonly IMapper _mapper;
 
         public StudentsService(IStudentsRepository studentRepository, IMapper mapper, IGradeRepository gradeRepository)
@@ -94,6 +95,23 @@ namespace API.Services
             await _gradeRepository.SaveChangesAsync();
 
             return true;
+        }
+        public async Task<StudentResponseDTO> GetStudentWithDetailsAsync(StudentRequestDTO request)
+        {
+            var student = await _studentRepository.GetStudentByNameAndClassAsync(request.FirstName, request.LastName, request.Class);
+            if (student == null)
+            {
+                throw new KeyNotFoundException("Student not found.");
+            }
+
+            var grades = await _gradeRepository.GetGradeByIdAsync(student.Id);
+            var attendances = await _attendanceRepository.GetAttendancesByStudentIdAsync(student.Id);
+
+            var response = _mapper.Map<StudentResponseDTO>(student);
+            response.Grades = _mapper.Map<List<GradesResponseDTO>>(grades);
+            response.Attendances = _mapper.Map<List<AttendanceResponseDTO>>(attendances);
+
+            return response;
         }
     }
 }
